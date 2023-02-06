@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Eua Afora</title>
+</head>
+<body>
+    <header class="header">
+        <img src="/images/LOGOTIPO brancoso.png" class="header__logo" alt="Logomarca Jonas Rocha Fotografia">
+        <div class="header__line"></div> <!--animação-->
+    </header><!--header-->
+
+    <main class="page">
+        
+            <section class="photo-profile">
+                <img src="/images/JON_2397.jpg" class="photo-profile__img" alt="foto de perfil Jonas Rocha">
+                <div class="photo-profile__info">
+                    <h1 class="photo-profile__name">Jonas Rocha</h1>
+                    <h3 class="photo-profile__subtitle">Explore</h3>
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </div><!--photo-profile__info-->
+                <button id="buttonEvent" class="photo-profile__button-add"></button>
+            </section><!--photo-profile-->
+        
+            <article class="pictures">
+                <div class="pictures__c">
+                    <div class="pictures__content">
+                        <img src="" alt="">
+                        <h2 class="pictures__title"></h2>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--pictures__content-->
+
+                    <div class="pictures__content">
+                        <img src="" alt="">
+                        <h2 class="pictures__title"></h2>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--pictures__content-->
+
+                    <div class="pictures__content">
+                        <img src="" alt="">
+                        <h2 class="pictures__title"></h2>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--pictures__content-->
+
+                    <div class="pictures__content">
+                        <img src="" alt="">
+                        <h2 class="pictures__title"></h2>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--pictures__content-->
+
+                    <div class="pictures__content">
+                        <img src="" alt="">
+                        <h2 class="pictures__title"></h2>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--pictures__content-->
+
+                    <div class="pictures__content">
+                        <img src="" alt="">
+                        <h2 class="pictures__title"></h2>
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--pictures__content-->
+                </div><!--pictures__c-->
+            </article><!--pictures-->
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">&copy; 2023. Jonas Rocha | Fotografia</p>
+    </footer>
+
+    <div class="modal" id="modalC">
+        <i class="fa-regular fa-circle-xmark"></i>
+        <h2 class="modal__title">Editar Perfil</h2>
+        <form class="modal__form">
+            <fieldset class="modal__box">
+                <input type="text" id="name" class="modal__name" placeholder="Name" required>
+                <input type="text" class="modal__about" id="about" placeholder="about" required>
+            </fieldset>
+            <input type="submit" class="modal__save" value="Save">
+        </form>
+    </div><!--modal-->
+</body>
+</html>
