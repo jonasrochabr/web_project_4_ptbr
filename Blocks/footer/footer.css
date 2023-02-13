@@ -1,0 +1,10 @@
+.footer {
+    margin: 6.8rem 20rem 6.0rem;
+  }
+  
+  @media screen and (max-width: 544px) {
+    .footer {
+      margin: 5.0rem 1.9rem 3.2rem;
+    }
+  }
+  

@@ -1,0 +1,42 @@
+@import url(/normalize.css);
+@import url(/Blocks/root/root.css);
+
+
+@import url(/Blocks/header/__logo/header__logo.css);
+@import url(/Blocks/header/__line/header__line.css);
+
+
+@import url(/Blocks/profile-photo/profile-photo.css);
+@import url(/Blocks/profile-photo/__button-add/profile-photo__button-add.css);
+@import url(/Blocks/profile-photo/__button/button.css);
+@import url(/Blocks/profile-photo/__edit/profile-photo__edit.css);
+@import url(/Blocks/profile-photo/__image/profile-photo__image.css);
+@import url(/Blocks/profile-photo/__info/profile-photo__info.css);
+@import url(/Blocks/profile-photo/__name/profile-photo__name.css);
+@import url(/Blocks/profile-photo/__subtitle/profile-photo__subtitle.css);
+@import url(/Blocks/profile-photo/__title/profile-photo__title.css);
+
+
+@import url(/Blocks/pictures/pictures.css);
+@import url(/Blocks/pictures/-c/pictures-c.css);
+@import url(/Blocks/pictures/__button-add/pictures__button-add.css);
+@import url(/Blocks/pictures/__button-edit/pictures__button-edit.css);
+@import url(/Blocks/pictures/__content/pictures__content.css);
+@import url(/Blocks/pictures/__edit/pictures__edit.css);
+@import url(/Blocks/pictures/__img/pictures__img.css);
+@import url(/Blocks/pictures/__like/pictures__like.css);
+@import url(/Blocks/pictures/__title/pictures__title.css);
+
+
+@import url(/Blocks/footer/footer.css);
+@import url(/Blocks/footer/__copyright/footer__copyright.css);
+
+@import url(/Blocks/modal/modal.css);
+@import url(/Blocks/modal/__about/modal__about.css);
+@import url(/Blocks/modal/__box/modal__box.css);
+@import url(/Blocks/modal/__close/modal__close.css);
+@import url(/Blocks/modal/__form/modal__form.css);
+@import url(/Blocks/modal/__name/modal__name.css);
+@import url(/Blocks/modal/__salvar/modal__salvar.css);
+@import url(/Blocks/modal/__title/modal__title.css);
+@import url(/Blocks/modal/fade/fade.css);

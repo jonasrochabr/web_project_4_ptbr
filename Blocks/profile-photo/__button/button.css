@@ -1,0 +1,15 @@
+.button {
+    color: var(--clr-white);
+    background: var(--clr-black);
+    border: solid 2px;
+    width: 15.4rem;
+    padding: 1.0rem;
+    margin-right: 10rem;
+    margin-bottom: 3.0rem;
+    transition: var(--transition);
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+  }

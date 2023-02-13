@@ -1,0 +1,17 @@
+.profile-photo__edit {
+    cursor: pointer;
+    transition: var(--transition);
+    width: 15%;
+  }
+  
+  
+  .profile-photo__edit:hover {
+    opacity: 0.6;
+    scale: 90%;
+  }
+  
+  @media screen and (max-width: 544px) {
+    .profile-photo__edit {
+      margin-top: 20px;
+    }
+  }

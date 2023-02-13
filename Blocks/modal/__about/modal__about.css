@@ -1,0 +1,27 @@
+.modal__about {
+    border: 0;
+    width: 35rem;
+    height: 2.0rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #000;
+    opacity: 0.7;
+    margin-left: 3.6rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.21;
+    padding: 0;
+    margin-top: 5.0rem;
+  }
+  
+  .modal__about:focus {
+    outline-color: gray;
+  }
+  
+  @media screen and (max-width: 544px) {
+    .modal__about {
+      width: 23rem;
+      margin-left: 2.2rem;
+      margin-top: 4.0rem;
+    }
+  }

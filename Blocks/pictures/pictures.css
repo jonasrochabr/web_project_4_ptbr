@@ -1,0 +1,13 @@
+.pictures {
+    margin: 4.6rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 85%;
+    grid-gap: 3.0rem 3.0rem;
+  }
+  
+  @media screen and (max-width: 544px) {
+    .pictures {
+      grid-template-columns: 1fr;
+    }
+  }

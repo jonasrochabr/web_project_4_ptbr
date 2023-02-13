@@ -1,0 +1,12 @@
+.pictures__img {
+    width: 100%;
+    border-radius: 1.0rem 1.0rem 0 0;
+    transition: var(--transition);
+    object-fit: cover;
+  }
+  
+  .pictures__img:hover {
+    opacity: 0.6;
+    scale: 1rem;
+    cursor: pointer;
+  }

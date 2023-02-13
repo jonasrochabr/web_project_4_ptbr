@@ -1,0 +1,13 @@
+.pictures__edit {
+    cursor: pointer;
+  }
+  
+  .pictures__edit:hover {
+    opacity: 0.6;
+  }
+  
+  @media screen and (max-width: 544px) {
+    .pictures__edit {
+      margin-top: 2.0rem;
+    }
+  }
