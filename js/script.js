@@ -14,7 +14,7 @@ function startModal(classModal) {
   
   const button = document.querySelector(".profile-photo__edit");
   button.addEventListener("click", function () {
-    startModal("#modalContainer");
+    startModal("modal");
   });
   
   const formElement = document.querySelector(".modal__form");
