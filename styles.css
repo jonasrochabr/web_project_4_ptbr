@@ -8,7 +8,7 @@
 
 @import url(/Blocks/profile-photo/profile-photo.css);
 @import url(/Blocks/profile-photo/__button-add/profile-photo__button-add.css);
-@import url(/Blocks/profile-photo/__button/button.css);
+@import url(/Blocks/profile-photo/__button/profile-photo__button.css);
 @import url(/Blocks/profile-photo/__edit/profile-photo__edit.css);
 @import url(/Blocks/profile-photo/__image/profile-photo__image.css);
 @import url(/Blocks/profile-photo/__info/profile-photo__info.css);
