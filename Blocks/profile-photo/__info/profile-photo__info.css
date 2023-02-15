@@ -1,13 +1,13 @@
 .profile-photo__info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 544px) {
+  .profile-photo__info {
+    flex-direction: column;
+    margin-left: 40rem;
+    margin-top: 2rem;
   }
-  
-  @media screen and (max-width: 544px) {
-    .profile-photo__info {
-      flex-direction: column;
-      margin-left: 40rem;
-      margin-top: 2.0rem;
-    }
-  }
+}

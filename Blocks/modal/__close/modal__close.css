@@ -1,21 +1,21 @@
 .modal__close {
-    right: -4.0rem;
-    cursor: pointer;
-    top: -4.0rem;
-    padding: 0;
-    position: absolute;
-    width: 10%;
-    transition: var(--transition);
+  right: -4rem;
+  cursor: pointer;
+  top: -4rem;
+  padding: 0;
+  position: absolute;
+  width: 10%;
+  transition: var(--transition);
+}
+
+@media screen and (max-width: 544px) {
+  .modal__close {
+    right: 0;
+    top: -5rem;
+    width: 2.6rem;
   }
-  
-  @media screen and (max-width: 544px) {
-    .modal__close {
-      right: 0;
-      top: -5.0rem;
-      width: 2.6rem;
-    }
-  }
-  
-  .modal__close:hover {
-    opacity: 0.6;
-  }
+}
+
+.modal__close:hover {
+  opacity: 0.6;
+}

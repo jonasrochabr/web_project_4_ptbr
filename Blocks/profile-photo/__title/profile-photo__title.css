@@ -1,22 +1,22 @@
 .profile-photo__title {
-    margin: 0 1.8rem 0;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 4.2rem;
-    line-height: 1.14;
-    color: var(--clr-white);
-    transition: var(--transition);
+  margin: 0 1.8rem 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.2rem;
+  line-height: 1.14;
+  color: var(--clr-white);
+  transition: var(--transition);
+}
+
+.profile-photo__title:hover {
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 544px) {
+  .profile-photo__title {
+    line-height: 1.22;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1.6rem 1rem 0;
   }
-  
-  .profile-photo__title:hover {
-    opacity: 0.5;
-  }
-  
-  @media screen and (max-width: 544px) {
-    .profile-photo__title {
-      line-height: 1.22;
-      font-size: 3rem;
-      text-align: center;
-      margin: 2.6rem 1.0rem 0;
-    }
-  }
+}

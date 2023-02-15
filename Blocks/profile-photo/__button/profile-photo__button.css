@@ -1,16 +1,23 @@
 .profile-photo__button {
-    color: var(--clr-white);
-    background: var(--clr-black);
-    border: solid 2px;
-    width: 15.4rem;
-    padding: 1.0rem;
-    margin-right: 20rem;
-    margin-bottom: 3.0rem;
-    transition: var(--transition);
-    font-size: 2rem;
+  color: var(--clr-white);
+  background: var(--clr-black);
+  border: solid 2px;
+  width: 15.4rem;
+  padding: 1rem;
+  margin-right: 20rem;
+  margin-bottom: 3rem;
+  transition: var(--transition);
+  font-size: 2rem;
+}
+
+.profile-photo__button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 544px) {
+  .profile-photo__button {
+    width: 30rem;
+    margin-left: 12rem;
   }
-  
-  .profile-photo__button:hover {
-    cursor: pointer;
-    opacity: 0.5;
-  }
+}

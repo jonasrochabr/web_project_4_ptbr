@@ -1,11 +1,11 @@
 .pictures-c {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 544px) {
+  .pictures-c {
+    margin: auto;
   }
-  
-  @media screen and (max-width: 544px) {
-    .pictures-c {
-      margin: auto;
-    }
-  }
+}

@@ -1,30 +1,30 @@
 .modal {
-    position: relative;
-    width: 43rem;
-    height: 33rem;
-    background-color: var(--clr-white);
-    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
-    border-radius: 1.0rem;
+  position: relative;
+  width: 43rem;
+  height: 33rem;
+  background-color: var(--clr-white);
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 544px) {
+  .modal {
+    width: 28.2rem;
+    height: 32.2rem;
+    margin-right: 32rem;
   }
-  
-  @media screen and (max-width: 544px) {
-    .modal {
-      width: 28.2rem;
-      height: 32.2rem;
-      margin-right: 32rem;
-    }
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
   }
-  
-  @keyframes modal {
-    from {
-      opacity: 0;
-      transform: translate3d(0, -60px, 0);
-    }
-    to {
-      opacity: 1;
-      transform: translate3d(0, 0, 0);
-    }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
-  .display .modal {
-    animation: modal 0.3s;
-  }
+}
+.display .modal {
+  animation: modal 0.3s;
+}
