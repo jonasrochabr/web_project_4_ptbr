@@ -7,7 +7,7 @@
   margin-right: 20rem;
   margin-bottom: 3rem;
   transition: var(--transition);
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .profile-photo__button:hover {

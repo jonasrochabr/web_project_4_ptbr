@@ -24,8 +24,8 @@ function handleProfileFormSubmit(evt) {
 
   const nameInput = document.querySelector("#name");
   const aboutInput = document.querySelector("#about");
-  const title = document.querySelector("profile-photo__title");
-  const subtitle = document.querySelector("profile-photo__subtitle");
+  const title = document.querySelector("#profileTitle");
+  const subtitle = document.querySelector("#profileSubtitle");
 
   const nameValue = nameInput.value;
   const aboutValue = aboutInput.value;
