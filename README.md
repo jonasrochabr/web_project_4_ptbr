@@ -10,4 +10,4 @@
 
 * link:
 
-**https://github.com/jonasrochabr/web_project_4_ptbr**
+**https://jonasrochabr.github.io/web_project_4_ptbr/**
