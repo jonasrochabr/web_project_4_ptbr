@@ -6,7 +6,7 @@
 * CSS
 * JS
 
-**Começando a desenvolver paginas interativas com Javascript**
+**Começando a desenvolver paginas interativas com Javascript. Neste projeto conseguimos colocar nome de usuário atraves de um modal criado com JS**
 
 * link:
 
