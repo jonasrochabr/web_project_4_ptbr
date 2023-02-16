@@ -2,15 +2,12 @@
 
 ### Visão geral
 
-* Figma
-* Imagens
+* HTML5
+* CSS
+* JS
 
-**Figma**
+**Começando a desenvolver paginas interativas com Javascript**
 
-* [Link para o projeto no Figma](https://www.figma.com/file/XfB6BSINvliub43JgKza1e/WEB.-Sprint-4.-Around-The-U.S.-desktop-%2B-mobile-pt)
+* link:
 
-**Imagens**
-
-A maneira como você fará isso no trabalho é exportando imagens diretamente do Figma — recomendamos fazer isso para praticar mais. Não se esqueça de otimizá-los [aqui](https://tinypng.com/), para que seu projeto carregue mais rápido.
-
-Divirta-se com JavaScript!
+**https://github.com/jonasrochabr/web_project_4_ptbr**
