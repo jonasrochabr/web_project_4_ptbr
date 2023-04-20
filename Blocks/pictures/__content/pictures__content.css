@@ -1,9 +1,0 @@
-.pictures__content {
-  max-width: 80rem;
-  height: 8rem;
-  background-color: var(--clr-white);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 0 0 1rem 1rem;
-}

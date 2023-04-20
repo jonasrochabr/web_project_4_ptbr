@@ -1,187 +1,161 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="stylesheet" href="/styles.css">
-
-    <title>EUA Afora</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <title>Document</title>
   </head>
   <body>
     <header class="header">
       <img
-        class="header__logo"
-        src="/images_proj/Vector (2).png"
-        alt="EUA Afora"
+        src="images/LOGOTIPO brancoso.png"
+        alt="Jonas Rocha Fotografia"
+        class="logo"
       />
-      <div class="header__line"></div>
     </header>
 
     <main>
-      <div>
-        <section class="profile-photo">
-          <img
-            class="profile-photo__image"
-            src="/images_proj/image (1).jpg"
-            alt="Jacques Cousteau"
-          />
+      <div class="profile">
+        <div class="popup">
+          <form class="popup__card" novalidate>
+            <img
+              src="./images/Close_Icon.svg"
+              alt="ícone X de fechar a janela"
+              class="popup__close-button"
+            />
+            <h4 class="popup__title">Editar perfil</h4>
+            <input
+              id="popup__name-input"
+              type="text"
+              class="popup__input popup__input_profile"
+              placeholder="Jonas Rocha"
+              minlength="2"
+              maxlength="10"
+              required
+            />
+              <span class="popup__input-error popup__name-input-error"></span>
+            <input
+              id="description-input"
+              type="text"
+              class="popup__input popup__input_profile"
+              placeholder="Photographer"
+              minlength="2"
+              maxlength="10"
+              required
+            />
+              <span class="popup__input-error description-input-error"></span>
+            <button class="popup__save-button">Save</button>
+          </form>
+        </div>
 
-          <div class="profile-photo__info">
-            <div>
-              <div class="profile-photo__name">
-                <h1 class="profile-photo__title" id="profileTitle">Jacques Cousteau</h1>
-                <img
-                  src="/images/buttonedit.png"
-                  alt="edit"
-                  class="profile-photo__edit"
-                />
-              </div>
-              <h3 class="profile-photo__subtitle" id="profileSubtitle">Explorar</h3>
+        <div class="profile__info">
+          <img
+            src="images/JON_2397.jpg"
+            alt="Jonas Rocha"
+            class="profile__picture"
+          />
+          <div class="profile__text-wrapper">
+            <div class="profile__name-wrapper">
+              <h1 class="profile__name">Jonas Rocha</h1>
+              <button class="profile__edit">
+                <img src="./images/Pencil.svg">
+              </button>
             </div>
-            <button id="buttonEvent" class="profile-photo__button">+</button>
+            <h2 class="profile__title">Photographer</h2>
           </div>
-        </section>
+        </div>
+        <button class="adicionar-button">
+          <img
+            src="./images/Plus-sign.svg">
+        </button>
       </div>
 
-      <article class="pictures">
-        <div class="pictures-c">
-          <img
-            class="pictures__img"
-            src="/images_proj/Vale de Yosemite.jpg"
-            alt="vale de yosemite"
-          />
-          <div class="pictures__content">
-            <h2 class="pictures__title">Vale de yosemite</h2>
-            <img
-              class="pictures__like"
-              src="/images/Vector (1).png"
-              alt="Heart-like"
-            />
-          </div>
-        </div>
 
-        <div class="pictures-c">
-          <img
-            class="pictures__img"
-            src="/images_proj/Lago Louise.png"
-            alt="Lago Louise"
-          />
-          <div class="pictures__content">
-            <h2 class="pictures__title">Lago Louise</h2>
+      <ul class="cards">
+        <div class="popup">
+          <form class="popup__card" novalidate>
             <img
-              class="pictures__like"
-              src="/images/Vector (1).png"
-              alt="Heart-like"
+              src="./images/Close_Icon.svg"
+              alt="ícone X de fechar a janela"
+              class="popup__close-button"
             />
-          </div>
-        </div>
-
-        <div class="pictures-c">
-          <img
-            class="pictures__img"
-            src="/images_proj/Montanhas Care....png"
-            alt="Montanhas Care"
-          />
-          <div class="pictures__content">
-            <h2 class="pictures__title">Montanhas Care</h2>
-            <img
-              class="pictures__like"
-              src="/images/Vector (1).png"
-              alt="Heart-like"
+            <h4 class="popup__title">Novo local</h4>
+            <input
+              id="card-title-input"
+              type="text"
+              class="popup__input popup__input_card"
+              placeholder="Título"
+              minlength="2"
+              maxlength="30"
+              required
             />
-          </div>
-        </div>
-
-        <div class="pictures-c">
-          <img
-            class="pictures__img"
-            src="/images_proj/Latemar.png"
-            alt="Latemar"
-          />
-          <div class="pictures__content">
-            <h2 class="pictures__title">Latemar</h2>
-            <img
-              class="pictures__like"
-              src="/images/Vector (1).png"
-              alt="Heart-like"
+              <span class="popup__input-error card-title-input-error"></span>
+            <input
+              id="card-link-input"
+              type="url"
+              class="popup__input popup__input_card"
+              placeholder="Link da imagem"
+              required
             />
-          </div>
+              <span class="popup__input-error card-link-input-error"></span>
+            <button class="popup__criar-button">Criar</button>
+          </form>
         </div>
-
-        <div class="pictures-c">
-          <img
-            class="pictures__img"
-            src="/images_proj/Vanoise Nationa....png"
-            alt="Vanoise Nationa"
-          />
-          <div class="pictures__content">
-            <h2 class="pictures__title">Vanoise Nationas</h2>
-            <img
-              class="pictures__like"
-              src="/images/Vector (1).png"
-              alt="Heart-like"
-            />
+       
+        <template class="card-template">
+          <div class="card__image-popup">
+            <div class="card__popup-wrapper">
+              <img
+                src="./images/Close_Icon.svg"
+                alt="ícone X de fechar a janela"
+                class="card__close-button"
+              />
+              <img
+                src=""
+                class="card__image-big"
+              />
+              <p></p>
+            </div>
           </div>
-        </div>
-
-        <div class="pictures-c">
-          <img
-            class="pictures__img"
-            src="/images_proj/Lago di Braies.png"
-            alt="Lago di Braies"
-          />
-          <div class="pictures__content">
-            <h2 class="pictures__title">Lago di Braies</h2>
-            <img
-              class="pictures__like"
-              src="/images/Vector (1).png"
-              alt="Heart-like"
-            />
-          </div>
-        </div>
-      </article>
-      <!--pictures-->
+          <li class="card">
+            <button class="card__delete-button">
+              <img
+                src="./images/trashCan.svg"
+                alt="ícone de lata de lixo"
+                class="card__delete-icon card__delete-icon_active"
+              />
+              <img
+                src="./images/trashCan_grey.svg"
+                alt="ícone de lata de lixo"
+                class="card__delete-icon card__delete-icon_inactive"
+              />
+            </button>
+            <img src=" " alt="" class="card__image" />
+            <div class="card__description-wrapper">
+              <h4 class="card__title"></h4>
+              <img
+                src="./images/heart.svg"
+                alt="imagem de um coração vazado"
+                class="like-button like-button_inactive"
+                id="like_off"
+              />
+              <img
+                src="./images/heart_active.svg"
+                alt="imagem de um coração vazado"
+                class="like-button like-button_active like-button_hidden"
+                id="like_on"
+              />
+            </div>
+          </li>
+        </template>
+      </ul>
     </main>
-
     <footer class="footer">
-      <a
-        href="https://api.whatsapp.com/send?phone=5569993019219&text=Ol%C3%A1%20Jonas!%20Quero%20contrata-lo%20para%20nossa%20equipe%20de%20DEVs.%20Voc%C3%AA%20aceita?"
-        class="footer__copyright"
-        >&copy; 2023 | Jonas Rocha</a
-      >
+      <p class="copyrights">Copyright &copy;<spam class="date"></spam>Todos os direitos Reservados</p>
     </footer>
-
-    <div class="fade" id="modalContainer">
-      <div class="modal">
-        <img
-          src="/images/Close Icon.png"
-          alt="close icon"
-          class="modal__close"
-        />
-        <h2 class="modal__title">Editar perfil</h2>
-        <form class="modal__form">
-          <fieldset class="modal__box">
-            <input
-              type="text"
-              id="name"
-              class="modal__name"
-              placeholder="Nome"
-              required
-            />
-            <input
-              type="text"
-              id="about"
-              class="modal__about"
-              placeholder="Sobre mim"
-              required
-            />
-          </fieldset>
-          <input type="submit" class="modal__salvar" value="Salvar" />
-        </form>
-      </div>
-    </div>
-
-    <script src="/js/script.js"></script>
+    <script src="./javascript/index.js"></script>
+    <script src="./javascript/validate.js"></script>
   </body>
 </html>

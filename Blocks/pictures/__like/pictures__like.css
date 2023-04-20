@@ -1,9 +1,0 @@
-.pictures__like {
-  width: 2rem;
-  margin-right: 1.8rem;
-  cursor: pointer;
-}
-
-.pictures__like:hover {
-  opacity: 0.5;
-}
